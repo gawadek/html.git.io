@@ -1,0 +1,71 @@
+*{margin:0;
+ padding:0;
+ box-sizing: border-box;}
+
+.backgroundimage{ background-image: url("photo-158130.jpg");
+background-position: ;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height:100vh;
+
+}
+.brandname{display: flex;
+color: white;}
+.brandname .fa{margin-right: 1rem;
+	font-size: 1.5rem;
+	color:white;
+}
+ .container{ margin-left:25%;
+             margin-right:25%; 
+             background-color:transparent;
+             padding-top: 2rem;
+             display: flex;
+                           }
+
+
+ .nav {margin-left: auto; 
+ }
+ .nav a{
+ 	text-decoration: none;
+ 	margin-right: 2rem;
+ 	color: white;
+ 	transition:ease 1s;
+
+}/*
+ 	@media screen and (max-width: 500px)
+ 	.nav{
+ 		background-color:#fff;
+ 	}*/
+ 
+  .nav a:hover{
+  	color: deepskyblue;
+  }
+
+
+  .nav {
+  background-color: pik;
+}
+
+@media screen and (max-width: 982px) {
+.nav {
+    background-color: ;
+    margin-right: auto;
+    color: black;
+    display: flex;
+    margin-left: 5rem; 
+	  }
+	  .nav a{
+ 	text-decoration: none;
+ 	margin-right: 2rem;
+ 	color: white;
+ 	transition:ease 2s;}
+
+	  }
+	  
+/*.nav{margin-left: none;
+background-color: white;}
+
+	}
+*/
